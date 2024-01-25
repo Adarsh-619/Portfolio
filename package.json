@@ -1,0 +1,30 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My portfolio website",
+  "main": "index.html",
+  "scripts": {
+    "format": "prettier --write .",
+    "start": "index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adarsh-619/Portfolio.git"
+  },
+  "author": "Adarsh-619",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Adarsh-619/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Adarsh-619/Portfolio#readme",
+  "dependencies": {
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.2.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
