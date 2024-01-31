@@ -20,8 +20,8 @@
    <!--=============== CSS ===============-->
    <link rel="stylesheet" href="../css/card_styles.css">
 
-   <!-- Add icon library -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+   <!-- Fontawesome CDN Link / Icon library  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
       crossorigin="" />
 
    <meta property="og:title" content="adarsh" />
@@ -65,6 +65,22 @@
          </div>
       </div>
    </nav>
+
+   <section class="pop-container">
+      <span class="overlay"></span>
+
+      <div class="modal-box" id="myComponent">
+         <i class="fa-regular fa-circle-check"></i>
+         <h2>Completed</h2>
+         <h3>You have sucessfully downloaded all the source code files.</h3>
+
+         <div class="buttons">
+            <button class="close-btn">Ok, Close</button>
+            <button>Open File</button>
+         </div>
+      </div>
+   </section>
+
    <section class="cardcontainer">
       <div class="card__container swiper">
          <div class="card__content">
@@ -85,6 +101,9 @@
                      <a href="https://github.com/Adarsh-619/MoviesMania" target="_blank" class="card__button"><i
                            class="fa-brands fa-github fa-bounce"
                            style="font-size:24px;padding-right: 0.4em;"></i>Github</a>
+                     <a target="_blank" class="card__button show-modal"><i class="fa-brands fa-github fa-bounce"
+                           style="font-size:24px;padding-right: 0.4em;"></i>Github</a>
+
                   </div>
                </article>
 
@@ -203,8 +222,12 @@
       </div>
    </section>
 
+
    <!--=============== SWIPER JS ===============-->
    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+
+   <!--=============== POPUP JS ===============-->
+   <script src="../js/popup.js"></script>
 
    <!--=============== MAIN JS ===============-->
    <script src="../js/swiper_projects.js"></script>
