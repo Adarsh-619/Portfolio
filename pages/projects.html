@@ -21,8 +21,7 @@
    <link rel="stylesheet" href="../css/card_styles.css">
 
    <!-- Fontawesome CDN Link / Icon library  -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-      crossorigin="" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.css" crossorigin="" />
 
    <meta property="og:title" content="adarsh" />
    <meta property="og:site_name" content="< To be Entered >" />
@@ -70,13 +69,24 @@
       <span class="overlay"></span>
 
       <div class="modal-box" id="myComponent">
-         <i class="fa-regular fa-circle-check"></i>
-         <h2>Completed</h2>
-         <h3>You have sucessfully downloaded all the source code files.</h3>
+         <i class="fa-brands fa-free-code-camp"></i>
+         <h2></h2>
+         <div id="front-end">
+            <h3></h3>
+            <ol>
+            </ol>
+         </div>
+         <div id="back-end">
+            <h3></h3>
+            <ol>
+            </ol>
+         </div>
 
          <div class="buttons">
-            <button class="close-btn">Ok, Close</button>
-            <button>Open File</button>
+            <button class="close-btn">Close</button>
+            <a class="btn-link" target="_blank" href="" id="github-button"><i aria-hidden="true"
+                  class="fa-brands fa-github"
+                  style="font-size:18px;padding-right: 0.4em;color:aliceblue;"></i>Github</a>
          </div>
       </div>
    </section>
@@ -99,11 +109,11 @@
                      </p>
 
                      <a href="https://github.com/Adarsh-619/MoviesMania" target="_blank" class="card__button"><i
-                           class="fa-brands fa-github fa-bounce"
+                           aria-hidden="true" class="fa-brands fa-github fa-bounce"
                            style="font-size:24px;padding-right: 0.4em;"></i>Github</a>
-                     <a target="_blank" class="card__button show-modal"><i class="fa-brands fa-github fa-bounce"
-                           style="font-size:24px;padding-right: 0.4em;"></i>Github</a>
-
+                     <a onclick="showPopUp('movies_mania')" class="card__button show-modal">
+                        <i class="fa fa-rocket fa-bounce" aria-hidden="true"
+                           style="font-size:24px;padding-right:0.4em;"></i>Tech Stack</a>
                   </div>
                </article>
 
@@ -121,8 +131,11 @@
                      </p>
 
                      <a href="https://github.com/Adarsh-619/DeveloperHub" target="_blank" class="card__button"><i
-                           class="fa-brands fa-github fa-bounce"
+                           aria-hidden="true" class="fa-brands fa-github fa-bounce"
                            style="font-size:24px;padding-right: 0.4em;"></i>Github</a>
+                     <a onclick="showPopUp('developer_hub')" class="card__button show-modal">
+                        <i class="fa fa-rocket fa-bounce" aria-hidden="true"
+                           style="font-size:24px;padding-right:0.4em;"></i>Tech Stack</a>
                   </div>
                </article>
 
@@ -141,8 +154,11 @@
                      </p>
 
                      <a href="https://github.com/Adarsh-619/Weather_Forecaster" target="_blank" class="card__button"><i
-                           class="fa-brands fa-github fa-bounce"
+                           aria-hidden="true" class="fa-brands fa-github fa-bounce"
                            style="font-size:24px;padding-right: 0.4em;"></i>Github</a>
+                     <a onclick="showPopUp('weather_forecaster')" class="card__button show-modal">
+                        <i class="fa fa-rocket fa-bounce" aria-hidden="true"
+                           style="font-size:24px;padding-right:0.4em;"></i>Tech Stack</a>
                   </div>
                </article>
 
@@ -160,8 +176,11 @@
                      </p>
 
                      <a href="https://github.com/Adarsh-619/GuessTheCelebrity" target="_blank" class="card__button"><i
-                           class="fa-brands fa-github fa-bounce"
+                           aria-hidden="true" class="fa-brands fa-github fa-bounce"
                            style="font-size:24px;padding-right: 0.4em;"></i>Github</a>
+                     <a onclick="showPopUp('guess_the_celebrity')" class="card__button show-modal">
+                        <i class="fa fa-rocket fa-bounce" aria-hidden="true"
+                           style="font-size:24px;padding-right:0.4em;"></i>Tech Stack</a>
                   </div>
                </article>
 
@@ -180,8 +199,11 @@
                      </p>
 
                      <a href="https://github.com/Adarsh-619/Car_Price_Predictor" target="_blank" class="card__button"><i
-                           class="fa-brands fa-github fa-bounce"
+                           aria-hidden="true" class="fa-brands fa-github fa-bounce"
                            style="font-size:24px;padding-right: 0.4em;"></i>Github</a>
+                     <a onclick="showPopUp('car_price_predictor')" class="card__button show-modal">
+                        <i class="fa fa-rocket fa-bounce" aria-hidden="true"
+                           style="font-size:24px;padding-right:0.4em;"></i>Tech Stack</a>
                   </div>
                </article>
 
@@ -194,15 +216,17 @@
                   <div class="card__data">
                      <h3 class="card__name">Laptop Price Estimator</h3>
                      <p class="card__description">
-
                         The Laptop Price Estimator, a machine learning project, predicts laptop prices using various
                         features. It analyzes input data with a trained model to offer users precise cost predictions,
                         facilitating informed purchasing decisions.
                      </p>
 
-                     <a href="https://github.com/Adarsh-619/Laptop_Price_Estimator" target="_blank"
+                     <a href="https://github.com/Adarsh-619/Laptop_Price_Estimator" target="_blank" aria-hidden="true"
                         class="card__button"><i class="fa-brands fa-github fa-bounce"
                            style="font-size:24px;padding-right: 0.4em;"></i>Github</a>
+                     <a onclick="showPopUp('laptop_price_estimator')" class="card__button show-modal">
+                        <i class="fa fa-rocket fa-bounce" aria-hidden="true"
+                           style="font-size:24px;padding-right:0.4em;"></i>Tech Stack</a>
                   </div>
                </article>
             </div>
