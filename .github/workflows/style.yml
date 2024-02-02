@@ -6,7 +6,7 @@ name: Prettier
 on:
   push:
     branches:
-      - workflowTesting
+      - main
   pull_request:
 
 jobs:
@@ -21,8 +21,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-        with:
-          ref: workflowTesting
 
       - name: Load Node.js
         uses: actions/setup-node@v3
