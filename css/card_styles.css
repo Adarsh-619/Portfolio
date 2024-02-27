@@ -108,11 +108,10 @@ img {
 .card__button {
   display: inline-block;
   background-color: var(--first-color);
-  padding: .75rem 0.5rem;
-  border-radius: .25rem;
+  padding: 0.75rem 0.5rem;
+  border-radius: 0.25rem;
   color: var(--dark-color);
   font-weight: 500;
-
 }
 
 /* Swiper class */

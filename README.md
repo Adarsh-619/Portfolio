@@ -8,7 +8,7 @@ I am starting with this project.
         "name": "",
         "url": "",
         "front-end": [],
-        "back-end": []       
+        "back-end": []
     }
 }
 ```

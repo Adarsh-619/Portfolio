@@ -1,38 +1,38 @@
 {
-    "movies_mania": {
-        "name": "Movies Mania",
-        "url": "https://github.com/Adarsh-619/MoviesMania",
-        "front-end": ["ReactJS (Vite)"],
-        "back-end": ["SpringBoot", "mongoDB"]       
-    },
-    "developer_hub": {
-        "name": "Developer Hub",
-        "url": "https://github.com/Adarsh-619/DeveloperHub",
-        "front-end": ["HTML", "CSS", "Javascript"],
-        "back-end": ["Python-Django"]       
-    },
-    "weather_forecaster": {
-        "name": "Weather Forecaster",
-        "url": "https://github.com/Adarsh-619/Weather_Forecaster",
-        "front-end": ["JavaFX", "Scene Builder"],
-        "back-end": ["Java", "OpenWeather API"]       
-    },
-    "guess_the_celebrity": {
-        "name": "Guess the Celebrity",
-        "url": "https://github.com/Adarsh-619/GuessTheCelebrity",
-        "front-end": [],
-        "back-end": ["Java", "Android"]       
-    },
-    "car_price_predictor": {
-        "name": "Car Price Predictor",
-        "url": "https://github.com/Adarsh-619/Car_Price_Predictor",
-        "front-end": ["PyGUI", "StreamLit", "PyQT5"],
-        "back-end": ["Python", "Scikit-Learn"]       
-    },
-    "laptop_price_estimator": {
-        "name": "Laptop Price Predictor",
-        "url": "https://github.com/Adarsh-619/Laptop_Price_Estimator",
-        "front-end": ["PyGUI", "ui", "PyQT5"],
-        "back-end": ["Python", "Scikit-Learn"]       
-    }
+  "movies_mania": {
+    "name": "Movies Mania",
+    "url": "https://github.com/Adarsh-619/MoviesMania",
+    "front-end": ["ReactJS (Vite)"],
+    "back-end": ["SpringBoot", "mongoDB"]
+  },
+  "developer_hub": {
+    "name": "Developer Hub",
+    "url": "https://github.com/Adarsh-619/DeveloperHub",
+    "front-end": ["HTML", "CSS", "Javascript"],
+    "back-end": ["Python-Django"]
+  },
+  "weather_forecaster": {
+    "name": "Weather Forecaster",
+    "url": "https://github.com/Adarsh-619/Weather_Forecaster",
+    "front-end": ["JavaFX", "Scene Builder"],
+    "back-end": ["Java", "OpenWeather API"]
+  },
+  "guess_the_celebrity": {
+    "name": "Guess the Celebrity",
+    "url": "https://github.com/Adarsh-619/GuessTheCelebrity",
+    "front-end": [],
+    "back-end": ["Java", "Android"]
+  },
+  "car_price_predictor": {
+    "name": "Car Price Predictor",
+    "url": "https://github.com/Adarsh-619/Car_Price_Predictor",
+    "front-end": ["PyGUI", "StreamLit", "PyQT5"],
+    "back-end": ["Python", "Scikit-Learn"]
+  },
+  "laptop_price_estimator": {
+    "name": "Laptop Price Predictor",
+    "url": "https://github.com/Adarsh-619/Laptop_Price_Estimator",
+    "front-end": ["PyGUI", "ui", "PyQT5"],
+    "back-end": ["Python", "Scikit-Learn"]
+  }
 }
