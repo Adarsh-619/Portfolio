@@ -108,10 +108,11 @@ img {
 .card__button {
   display: inline-block;
   background-color: var(--first-color);
-  padding: 0.75rem 1.2rem;
-  border-radius: 0.25rem;
+  padding: .75rem 0.5rem;
+  border-radius: .25rem;
   color: var(--dark-color);
-  font-weight: 600;
+  font-weight: 500;
+
 }
 
 /* Swiper class */
@@ -178,4 +179,107 @@ img {
   .swiper-button-next {
     right: -1rem;
   }
+}
+
+/********* POPUP ************/
+
+section .pop-container {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: hsl(212, 42%, 15%);
+}
+
+button.show-modal,
+.modal-box {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.overlay {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  pointer-events: none;
+  z-index: 2;
+}
+section.active .overlay {
+  opacity: 1;
+  pointer-events: auto;
+}
+.modal-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 380px;
+  width: 100%;
+  padding: 30px 20px;
+  border-radius: 24px;
+  background-color: #fff;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  transform: translate(-50%, -50%) scale(1.2);
+}
+section.active .modal-box {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, -50%) scale(1);
+  z-index: 10;
+}
+
+.modal-box i {
+  font-size: 70px;
+  color: #4070f4;
+}
+.modal-box h2 {
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+}
+.modal-box h3 {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+.modal-box .buttons {
+  margin-top: 25px;
+}
+.modal-box button {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  padding: 14px 22px;
+  border: none;
+  background: #4070f4;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 6px 12px;
+  margin: 0 10px;
+}
+
+.modal-box .btn-link {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  padding: 14px 22px;
+  border: none;
+  background: #4070f4;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 8px 12px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.modal-box {
+  font: 14px;
+  color: black;
 }
